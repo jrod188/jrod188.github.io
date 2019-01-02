@@ -149,9 +149,8 @@ plt.ylabel("Max Temperature (F)")
 plt.xlim(-80,100)
 plt.ylim(min(weather_df['Max Temp']) - 10, max(weather_df['Max Temp']) + 10)
 
-
-plt.show()
 plt.savefig("Latitude_Max_Temperature.png")
+plt.show()
 
 # Set the aesthetic using Seaborn
 sns.set()
@@ -174,9 +173,8 @@ plt.ylabel("Humidity (%)")
 plt.xlim(-80,100)
 plt.ylim(-10, 110)
 
-
-plt.show()
 plt.savefig("Latitude_Humidity.png")
+plt.show()
 # Set the aesthetic using Seaborn
 sns.set()
 
@@ -198,9 +196,8 @@ plt.ylabel("Cloudiness (%)")
 plt.xlim(-80,100)
 plt.ylim(-10, 110)
 
-
-plt.show()
 plt.savefig("Latitude_Cloudiness.png")
+plt.show()
 
 
 # Set the aesthetic using Seaborn
@@ -224,6 +221,5 @@ plt.ylabel("Wind Speed (mph)")
 plt.xlim(-80,100)
 plt.ylim(-5, max(weather_df['Wind Speed'])+5)
 
-
-plt.show()
 plt.savefig("Latitude_Windspeed.png")
+plt.show()
