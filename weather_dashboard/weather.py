@@ -30,7 +30,7 @@ api_key = "344569d22aedd5160e6055b93c2bd40a"
 
 # I chose 700 because many cities will not have data available
 # n=700 seemed safe in order to get above the 500 city threshold
-n = 750
+n = 700
 cities = []
 country_codes = []
 
@@ -72,7 +72,7 @@ error = 0
 
 for x in range(len(cities)):
     response = requests.get(f"{query}{cities[x]},{country_codes[x].upper()}").json()
-    time.sleep(1)
+    time.sleep(0.3)
 
     
     # Some of the cities we generate don't have data in openweathermap, so set their values to numpy's NaN
