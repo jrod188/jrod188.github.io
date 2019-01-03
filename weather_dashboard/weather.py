@@ -126,6 +126,9 @@ weather_df = pd.DataFrame({"City": cities,
 weather_df.dropna(how='any', inplace = True)
 weather_df.drop_duplicates(inplace = True)
 
+weather_df.to_html('data.html')
+
+
 print(f"The data frame contains {len(weather_df['City'])} unique cities and {str(error)} cities were dropped.")
 weather_df.head()
 # Set the aesthetic using Seaborn
