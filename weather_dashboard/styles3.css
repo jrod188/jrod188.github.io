@@ -124,8 +124,6 @@ button:focus {
     
     }
 }
-
-/* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
 @media (max-width: 480px) {
   .navbar {
     background-color: rgb(12, 173, 167);
