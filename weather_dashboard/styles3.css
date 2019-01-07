@@ -40,8 +40,8 @@ color: rgb(175, 175, 175) !important;
 }
 /* Images */
 img{
-    width:100% !important;
-    height:100% !important;
+    width:auto !important;
+    height:auto !important;
 }
 .active, .panel:hover{
     border-color:#0BADA6;
